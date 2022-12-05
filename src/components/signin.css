@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: black;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15rem;
+}
+
+label {
+  width: 50rem;
+}
+
+.container {
+  position: relative;
+  width: auto;
+}
+
+.circle {
+  width: 3rem;
+  height: 3rem;
+  background: linear-gradient(45deg, orange, red);
+  border-radius: 50%;
+  position: absolute;
+  top: -20px;
+  right: -10px;
+}
+
+.circle:nth-child(2) {
+  top: 340px;
+  left: -7px;
+  background: linear-gradient(45deg, yellow, green);
+}
+
+.card {
+  backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgb(255 255 255 / 11%);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+
+  align-items: center;
+  width: auto;
+  padding: 20px 20px;
+  padding-top: 20px;
+}
+
+.title {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+.form-input {
+  margin: 5px 0;
+}
+
+.form-input label {
+  font-size: 12px;
+}
+
+.form-input input {
+  backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgb(255 255 255 / 11%);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  width: 100%;
+  padding: 6px 10px;
+  color: white;
+  outline: none;
+}
+
+.form-input input::placeholder {
+  color: white;
+}
+
+.login-btn {
+  background-color: #2a0001;
+  color: white;
+  width: 26rem;
+  padding: 10px 0;
+  margin: 20px 0;
+  cursor: pointer;
+  border: 1px white solid;
+}
+.login-btn:hover {
+  background-color: #6c0202;
+}
+.forgot {
+  color: #fff;
+  width: 200px;
+  background-color: #2a0001;
+  margin-left: 16px;
+  border: 1px #ffffe0 solid;
+}
+.forgot1 {
+  color: #fff;
+  width: 200px;
+  background-color: #2a0001;
+  border: 1px #ffffe0 solid;
+}
+.forgot:hover {
+  background-color: #6c0202;
+  color: white;
+}
+.forgot1:hover {
+  background-color: #6c0202;
+  color: white;
+}

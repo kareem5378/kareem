@@ -1,0 +1,31 @@
+.box {
+  display: flex;
+  border: green 5px solid;
+  height: 52.6rem;
+  width: 100%;
+  border-radius: 30px;
+}
+.box .selected {
+  align-self: center;
+  color: white;
+  background-color: red;
+  border: 2px black solid;
+  opacity: 0.8;
+  height: 100px;
+}
+
+.box .selected:hover {
+  background-color: rebeccapurple;
+  position: absolute;
+  margin: 95%;
+  pointer-events: none;
+}
+.header1 {
+  display: flex;
+  margin: auto;
+  border: 2px black solid;
+  width: 4%;
+  background-color: lightcyan;
+  font-size: 1.3rem;
+  color: black;
+}

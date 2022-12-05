@@ -1,0 +1,13 @@
+.foot {
+  background-color: #282c34;
+  border: 1px solid black;
+  border-radius: 2px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  font-size: 1.4rem;
+  text-align: center;
+  border-radius: 10px;
+}
