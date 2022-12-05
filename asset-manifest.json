@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kareem/static/css/main.8baa3ae1.css",
+    "main.js": "/kareem/static/js/main.0e8385f2.js",
+    "static/js/787.32d91862.chunk.js": "/kareem/static/js/787.32d91862.chunk.js",
+    "index.html": "/kareem/index.html",
+    "main.8baa3ae1.css.map": "/kareem/static/css/main.8baa3ae1.css.map",
+    "main.0e8385f2.js.map": "/kareem/static/js/main.0e8385f2.js.map",
+    "787.32d91862.chunk.js.map": "/kareem/static/js/787.32d91862.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8baa3ae1.css",
+    "static/js/main.0e8385f2.js"
+  ]
+}
